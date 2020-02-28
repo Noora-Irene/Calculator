@@ -1,12 +1,12 @@
 import React from 'react';
-import { createAppContainer } from 'react-navigation';
+import { createAppContainer } from 'react-navigation';  //luo navigointiolion, jota koko sovellus pystyy käyttämään
 import { createStackNavigator } from 'react-navigation-stack';
 import Calculation from './Calculation';
 import History from './History';
 
 const AppNavi = createStackNavigator(
   {
-    Calculator: {screen: Calculation},
+    Calculator: {screen: Calculation}, // teksti/id ja komponentin nimi
     History: {screen: History}
   },
   {

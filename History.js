@@ -21,7 +21,6 @@ export default function History(props) {
         </View>
     );
 };
-History.navigationOptions = ({navigate}) => ({title: 'History'});
 
 const styles = StyleSheet.create({
     wholeScreen: {

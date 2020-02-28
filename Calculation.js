@@ -70,7 +70,6 @@ export default function Calculation(props) {
       </View>
     );
   }
-  Calculation.navigationOptions = ({navigate}) => ({title: 'Calculator'});
 
   const styles = StyleSheet.create({
     wholeScreen: {
